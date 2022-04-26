@@ -31,17 +31,17 @@
     </default>
 
    <actuator>
-        <position joint="finger_base_to_upper_joint_0" name="finger_base_to_upper_joint_0" kp="100" ctrllimited="true" ctrlrange="-0.33 1"/>
-        <position joint="finger_upper_to_middle_joint_0" name="finger_upper_to_middle_joint_0" kp="100" ctrllimited="true" ctrlrange="0 1.57"/>
-        <position joint="finger_middle_to_lower_joint_0" name="finger_middle_to_lower_joint_0" kp="100" ctrllimited="true" ctrlrange="-2.7 0"/>
+        <position joint="finger_base_to_upper_joint_0" name="finger_base_to_upper_joint_0" kp="20" ctrllimited="true" ctrlrange="-0.33 1"/>
+        <position joint="finger_upper_to_middle_joint_0" name="finger_upper_to_middle_joint_0" kp="20" ctrllimited="true" ctrlrange="0 1.57"/>
+        <position joint="finger_middle_to_lower_joint_0" name="finger_middle_to_lower_joint_0" kp="20" ctrllimited="true" ctrlrange="-2.7 0"/>
 
-        <position joint="finger_base_to_upper_joint_120" name="finger_base_to_upper_joint_120" kp="100" ctrllimited="true" ctrlrange="-0.33 1"/>
-        <position joint="finger_upper_to_middle_joint_120" name="finger_upper_to_middle_joint_120" kp="100" ctrllimited="true" ctrlrange="0 1.57"/>
-        <position joint="finger_middle_to_lower_joint_120" name="finger_middle_to_lower_joint_120" kp="100" ctrllimited="true" ctrlrange="-2.7 0"/>
+        <position joint="finger_base_to_upper_joint_120" name="finger_base_to_upper_joint_120" kp="20" ctrllimited="true" ctrlrange="-0.33 1"/>
+        <position joint="finger_upper_to_middle_joint_120" name="finger_upper_to_middle_joint_120" kp="20" ctrllimited="true" ctrlrange="0 1.57"/>
+        <position joint="finger_middle_to_lower_joint_120" name="finger_middle_to_lower_joint_120" kp="20" ctrllimited="true" ctrlrange="-2.7 0"/>
 
-        <position joint="finger_base_to_upper_joint_240" name="finger_base_to_upper_joint_240" kp="100" ctrllimited="true" ctrlrange="-0.33 1"/>
-        <position joint="finger_upper_to_middle_joint_240" name="finger_upper_to_middle_joint_240" kp="100" ctrllimited="true" ctrlrange="0 1.57"/>
-        <position joint="finger_middle_to_lower_joint_240" name="finger_middle_to_lower_joint_240" kp="100" ctrllimited="true" ctrlrange="-2.7 0"/>
+        <position joint="finger_base_to_upper_joint_240" name="finger_base_to_upper_joint_240" kp="20" ctrllimited="true" ctrlrange="-0.33 1"/>
+        <position joint="finger_upper_to_middle_joint_240" name="finger_upper_to_middle_joint_240" kp="20" ctrllimited="true" ctrlrange="0 1.57"/>
+        <position joint="finger_middle_to_lower_joint_240" name="finger_middle_to_lower_joint_240" kp="20" ctrllimited="true" ctrlrange="-2.7 0"/>
     </actuator>
 
 </mujocoinclude>
